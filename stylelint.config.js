@@ -65,7 +65,7 @@ module.exports = {
     "function-parentheses-newline-inside": "always-multi-line",
     "function-parentheses-space-inside": "never-single-line",
     "function-whitespace-after": "always",
-    "indentation": "tab",
+    "indentation": 2,
     "length-zero-no-unit": true,
     "max-empty-lines": 1,
     "media-feature-colon-space-after": "always",
@@ -104,7 +104,6 @@ module.exports = {
     "value-list-comma-newline-after": "always-multi-line",
     "value-list-comma-space-after": "always-single-line",
     "value-list-comma-space-before": "never",
-    "value-list-max-empty-lines": 0,
-    "value-no-vendor-prefix": true
+    "value-list-max-empty-lines": 0
   },
 }
