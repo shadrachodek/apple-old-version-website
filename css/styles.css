@@ -12,6 +12,9 @@
 
 body {
   font: 300 16px/22px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  height: 830px;
+  max-height: 1472px;
+  min-height: 830px;
 }
 
 .container,
@@ -52,7 +55,6 @@ body {
   position: relative;
   z-index: 9999;
   text-align: center;
-  padding: 25px 55px;
 }
 
 .nav-menu {
@@ -61,7 +63,7 @@ body {
   box-shadow: rgba(0, 0, 0, 0.3) 0 1px 2px;
   font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
   position: fixed;
-  top: 18px;
+  top: 58px;
 }
 
 ul {
@@ -94,17 +96,63 @@ ul li a {
 }
 
 .search {
-  margin-top: 1px;
+  margin: 8px 20px 0 20px;
+}
+
+.search input {
+  background: url(../images/icon-search.svg) no-repeat;
+  background-position: 4px 5px;
+}
+
+.search-input {
+  width: 100px;
+  height: 20px;
+  border-radius: 8px;
+  border: none;
+  color: #fff;
   box-shadow: rgba(0, 0, 0, 0.4) 0 -1px 0, rgba(255, 255, 255, 0.2) 0 1px 0;
   background-color: rgba(255, 255, 255, 0.1);
 }
 
 .hero {
-  position: absolute;
-  top: 0;
-  background: url(../images/your_verse_hero.jpg) left bottom no-repeat;
-  max-width: 100%;
+  background: url(../images/your_verse_hero.jpg) center bottom no-repeat;
   background-size: cover;
+  bottom: 0;
+  left: 0;
+  max-height: 600px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.hero-text {
+  color: #fff;
+  text-align: center;
+  margin: 170px auto;
+  width: 50%;
+  max-width: 100%;
+  text-decoration: none;
+}
+
+.hero-text h1 {
+  background: url(../images/what_will_your_verse_be.png) no-repeat;
+  background-size: cover;
+  height: 5rem;
+  text-indent: -9999px;
+}
+
+.hero-text h2 {
+  background: url(../images/everyone_has_something_to_share.png) no-repeat;
+  background-size: contain;
+  height: 82px;
+  text-indent: -9999px;
+}
+
+.hero-text a {
+  background: url(../images/your_verse.png) top no-repeat;
+  display: block;
+  height: 30px;
+  text-indent: -9999px;
 }
 
 /* .hero {
