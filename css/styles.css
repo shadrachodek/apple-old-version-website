@@ -7,10 +7,9 @@
 body {
   margin: 0 auto;
   padding: 0;
-  width: 1440px;
 }
 
-main {
+.main-content {
   background: url(../images/your_verse_hero.jpg) center -48.55em no-repeat;
   background-size: 1440px 1315px;
   font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
@@ -21,7 +20,7 @@ main {
 }
 
 .header {
-  width: 960px;
+  width: 61.25em;
   margin: 0 auto;
   text-align: center;
 }
@@ -57,7 +56,7 @@ ul {
 .logo a {
   background-image: url(../images/apple-logo.svg);
   background-position: top;
-  text-indent: -99909px;
+  text-indent: -99999px;
   width: 100px;
 }
 
@@ -107,29 +106,34 @@ ul {
 .hero-text {
   color: #fff;
   margin: 170px auto 140px auto;
-  max-width: 100%;
-  width: 50%;
   text-align: center;
   text-decoration: none;
 }
 
 .hero-text h1 {
-  background: url(../images/what_will_your_verse_be.png) no-repeat;
-  background-size: cover;
-  height: 5rem;
+  background: url(../images/what_will_your_verse_be.png) center no-repeat;
+  background-size: 45rem;
+  height: 4rem;
   text-indent: -9999px;
 }
 
 .hero-text h2 {
   background: url(../images/everyone_has_something_to_share.png) center top no-repeat;
   background-size: 56.9rem;
-  height: 82px;
+  height: 3.5em;
   text-indent: -9999px;
+}
+
+.bottom-footer {
+  margin: 0 auto;
+  width: 90em;
+  position: relative;
+  top: 0.8em;
 }
 
 .bottom-footer li {
   display: inline-block;
-  width: 356px;
+  width: 22.25em;
   overflow: hidden;
 }
 
