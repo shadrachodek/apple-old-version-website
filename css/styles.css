@@ -43,7 +43,9 @@ ul {
 
 .menu li {
   float: left;
-  max-width: 100%;
+  border-style: solid;
+  border-image: url(../images/menu1.png) 0 2 0 1;
+  border-width: 0 2px 0 1px;
 }
 
 .hero-text a {
@@ -60,17 +62,15 @@ ul {
   width: 100px;
 }
 
+.menu {
+  width: 61rem;
+}
+
 .menu li a {
   color: #fff;
   display: block;
-  height: 36px;
-  margin: 0;
   text-decoration: none;
-  padding: 8px 35px;
-  max-width: 100px;
-  border-style: solid;
-  border-image: url(../images/menu1.png) 0 2 0 1;
-  border-width: 0 2px 0 1px;
+  padding: 8px 33px;
 }
 
 .search {
@@ -140,14 +140,14 @@ ul {
 .footer {
   color: #6e6e6e;
   margin: 0 auto;
-  width: 980px;
+  width: 61rem;
 }
 
 .footer-nav {
   clear: both;
   overflow: hidden;
-  margin-top: 10px;
-  margin-bottom: 30px;
+  margin-top: 0.7rem;
+  margin-bottom: 2rem;
 }
 
 .footer-nav small,
@@ -157,7 +157,7 @@ ul {
 }
 
 .footer-nav small {
-  margin-right: 10px;
+  margin-right: 0.7rem;
 }
 
 .footer-nav ul {
@@ -171,7 +171,7 @@ ul {
 }
 
 .copyright {
-  margin-top: 30px;
+  margin-top: 1.5rem;
 }
 
 .copyright small a {
