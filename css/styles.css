@@ -1,0 +1,203 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  padding: 0;
+}
+
+.main-content {
+  background-image: url(../images/your_verse_hero.jpg);
+  background-position: center 136%;
+  background-repeat: no-repeat;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+  width: 90rem;
+}
+
+.header {
+  width: 61.25em;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.nav-menu {
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0, 0, 0, 0.2)), color-stop(0.05, rgba(0, 0, 0, 0)), color-stop(0.97, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.45))), -webkit-gradient(linear, 0 0, 100% 0, from(rgba(0, 0, 0, 0.2)), color-stop(0.002, rgba(0, 0, 0, 0)), color-stop(0.998, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.2))), url(../images/menu.png) 50% 50% no-repeat, -webkit-gradient(linear, 0 100%, 0 0, from(rgb(102, 102, 102)), color-stop(0.5, rgb(94, 94, 94)), color-stop(0.51, rgb(112, 112, 112)), to(rgb(128, 128, 128)));
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0 1px 2px;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+  position: absolute;
+  top: 5.1875rem;
+  font-size: small;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.menu li {
+  float: left;
+  border-style: solid;
+  border-image: url(../images/menu1.png) 0 2 0 1;
+  border-width: 0 2px 0 1px;
+}
+
+.hero-text a {
+  background: url(../images/your_verse.png) top no-repeat;
+  display: block;
+  height: 30px;
+  text-indent: -9999px;
+}
+
+.logo a {
+  background-image: url(../images/apple-logo.svg);
+  background-position: top;
+  text-indent: -99999px;
+  width: 100px;
+}
+
+.menu {
+  width: 61rem;
+}
+
+.menu li a {
+  color: #fff;
+  display: block;
+  text-decoration: none;
+  padding: 8px 33px;
+}
+
+.search {
+  margin: 8px 20px 0 20px;
+}
+
+.search input {
+  background: url(../images/icon-search.svg) no-repeat;
+  background-position: 4px 5px;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.search-input {
+  width: 100px;
+  height: 20px;
+  border-radius: 8px;
+  border: none;
+  color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.4) 0 -1px 0, rgba(255, 255, 255, 0.2) 0 1px 0;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.heros {
+  background: url(../images/your_verse_hero.jpg) center bottom no-repeat;
+  background-size: cover;
+  bottom: 0;
+  left: 0;
+  max-height: 600px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.hero-text {
+  color: #fff;
+  margin: 170px auto 140px auto;
+  text-align: center;
+  text-decoration: none;
+}
+
+.hero-text h1 {
+  background: url(../images/what_will_your_verse_be.png) center no-repeat;
+  background-size: 45rem;
+  height: 4rem;
+  text-indent: -9999px;
+}
+
+.hero-text h2 {
+  background: url(../images/everyone_has_something_to_share.png) center top no-repeat;
+  background-size: 56.9rem;
+  height: 3.5em;
+  text-indent: -9999px;
+}
+
+.bottom-footer {
+  margin: 0 auto;
+  width: 90em;
+  position: relative;
+  top: 0.8em;
+}
+
+.bottom-footer li {
+  display: inline-block;
+  width: 22.25em;
+  overflow: hidden;
+}
+
+.footer {
+  color: #6e6e6e;
+  margin: 0 auto;
+  width: 61rem;
+}
+
+.footer-nav {
+  clear: both;
+  overflow: hidden;
+  margin-top: 0.7rem;
+  margin-bottom: 2rem;
+}
+
+.footer-nav small,
+.footer-nav ul li {
+  float: left;
+  font-size: 7pt;
+}
+
+.footer-nav small {
+  margin-right: 0.7rem;
+}
+
+.footer-nav ul {
+  float: left;
+  margin-left: 15px;
+}
+
+.footer-nav ul li,
+.copyright small a {
+  border-left: 1px solid #ccc;
+}
+
+.copyright {
+  margin-top: 1.5rem;
+}
+
+.copyright small a {
+  padding: 0 7px;
+}
+
+.copyright small a,
+.footer-nav small a,
+.footer-nav ul li a {
+  color: #08c;
+  text-decoration: none;
+}
+
+.footer-nav ul li a {
+  padding: 0 8px;
+}
+
+.footer-nav ul li:first-child,
+.copyright small a:first-child {
+  border-left: none;
+}
+
+.copyright small a:hover,
+.footer-nav small a:hover,
+.footer-nav ul li a:hover {
+  text-decoration: underline;
+}
